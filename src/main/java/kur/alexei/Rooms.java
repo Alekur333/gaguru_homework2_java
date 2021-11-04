@@ -4,16 +4,19 @@ package kur.alexei;
 
  //   static class RoomsOfHouse {
 
-        int rooms = 1;
+        int rooms;
 
         public void numberOfRooms() {
+            //this.rooms = rooms;
             System.out.println("количество комнат = " + rooms);
         }
 
         public void incrementRooms() {
-            rooms = rooms + 1;
+            //this.rooms = rooms;
+            rooms = rooms + 10;
+            //return rooms;
         }
 
- //   }
+    }
 
-}
+//}
